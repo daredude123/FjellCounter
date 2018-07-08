@@ -1,0 +1,51 @@
+h1.cool {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 6vw;
+    color:white;
+    border-color: black;
+    text-shadow: 1px 1px 1px black;
+    animation-duration: 1s;
+    animation-delay: 10ms;
+    animation-fill-mode: forwards;
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    from {
+        margin-left: 100%;
+        width:400%;
+    }
+    to {
+        margin-left: 0%;
+        width:100%;
+    }
+}
+
+body {
+    background-color: aqua;
+    background-image: url("https://itraveltotravel.files.wordpress.com/2012/06/img_1279.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+h2.cool {
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    animation-duration: 1s;
+    animation-delay: 25ms;
+    animation-fill-mode: forwards;
+    animation-name: fadeIn;
+}
+
+#population {
+    text-align: center;
+    font-size: 6vw;
+    color:white;
+    text-shadow: 1px 1px 1px black;
+    animation-duration: 1s;
+    animation-delay: 50ms;
+    animation-fill-mode: forwards;
+    animation-name: fadeIn;
+}
