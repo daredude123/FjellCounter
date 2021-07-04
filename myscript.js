@@ -9,7 +9,7 @@ function processData(allText) {
     for(var x in allTextLines) {
         var y = allTextLines[x].split(";");
 
-        if(y[0].includes("Fjell")) {
+        if(y[0].includes("Øygarden")) {
             console.log(y[3]);
             fjellLines.push(y[3]);
         }
