@@ -16,7 +16,6 @@ function processData(allText) {
     }
 
     document.getElementById("population").innerHTML = fjellLines[0];
-    // alert(lines);
 }
 
 
