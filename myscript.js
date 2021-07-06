@@ -22,7 +22,7 @@ function processData(allText) {
 
 $(document).ready(function() {
         $.ajax({
-            'url' : "http://data.ssb.no/api/v0/dataset/1108.csv?lang=no",
+            'url' : "https://data.ssb.no/api/v0/dataset/1108.csv?lang=no",
             'type' : 'GET',
             'success' : function(data,status){
                 processData(data);
